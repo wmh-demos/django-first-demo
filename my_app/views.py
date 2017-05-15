@@ -15,3 +15,5 @@ def add(request):
 
 def index(request):
     return render(request, 'home.html')
+
+
