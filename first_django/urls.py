@@ -22,4 +22,3 @@ urlpatterns = [
     url(r'^index/$', my_app_views.index, name='index'),
     url(r'^$', my_app_views.func)
 ]
-
