@@ -18,7 +18,7 @@ from my_app import views as my_app_views
 
 urlpatterns = [
     url(r'^admin/', include(admin.site.urls)),
-    url(r'^add/$', my_app_views.add, name='add'),
+    url(r'^add$', my_app_views.add, name='add'),
     url(r'^index/$', my_app_views.index, name='index'),
     url(r'^$', my_app_views.func)
 ]
